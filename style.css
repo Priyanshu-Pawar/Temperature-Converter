@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(125, 163, 236);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 40px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+}
+
+.Temperature-icon {
+  font-size: 45px;
+  color: #ffff;
+}
+h1 {
+  letter-spacing: 1.2px;
+  font-size: 30px;
+}
+
+#celcius,
+#Fahrenheit,
+#kelvin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+input {
+  flex: 5;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 550;
+  text-align: center;
+  background-color: azure;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  padding: 0 10px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.input {
+  -moz-appearance: none;
+}
+
+.icon {
+  flex: 1;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 25px;
+  background-color: grey;
+  color: aliceblue;
+  border-radius: 0 8px 8px 0;
+}
+
+.button {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.button button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button button:hover{
+    background-color: rgb(142, 79, 79);
+    color: #ffff;
+}
