@@ -1,8 +1,9 @@
 <h1 align="center">Temperature Converter Website<img src="https://github.com/Priyanshu-Pawar/Temperature-Converter/assets/93826653/da863ea9-7904-4348-b194-40683752bdf3" alt="" style="width:50px;height:50px;"></h1>
 
-Description :- Designed and developed a user-friendly Temperature Converter Portal Website using web development technologies. Implemented a versatile tool for converting temperatures between Celsius, Fahrenheit, and Kelvin scales, enhancing accessibility and convenience for users.
+## Description
+Designed and developed a user-friendly Temperature Converter Portal Website using web development technologies. Implemented a versatile tool for converting temperatures between Celsius, Fahrenheit, and Kelvin scales, enhancing accessibility and convenience for users.
 
-#Live Demo
+## Live Demo
 You Can Click Here To Go To The Project Website Directly [Temperature Converter website](https://temperature-converter-by-priyanshu.netlify.app/)
 
 ## Features
